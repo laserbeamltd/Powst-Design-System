@@ -1,0 +1,6 @@
+{
+  "name": "Inter & Pink Design System",
+  "description": "A friendly, bold, and minimalist AA-compliant design system using Inter typography and a strict white, pink, and black color palette with depth shades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

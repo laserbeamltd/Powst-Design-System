@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+    /* Artistic Flair Core Palette Tokens */
+    --color-white: #FFFFFF;
+    --color-white-subtle: #FAFAFA;
+    --color-white-surface: #FFF0F6;
+    --color-white-border: #000000;
+    
+    --color-black-ink: #000000;
+    --color-black-charcoal: #09090B;
+    --color-black-slate: #18181B;
+    --color-black-muted: #71717A;
+    --color-black-subtle: #A1A1AA;
+    
+    --color-pink-vibrant: #FF007F;    /* Artistic Flair Hero Hot Pink */
+    --color-pink-bold: #E11D48;
+    --color-pink-deep: #9F1239;     /* 4.5:1 AA contrast for body text on white */
+    --color-pink-light: #FFE4EE;    /* Soft pink surface */
+    --color-pink-wash: #FFF0F6;     /* Artistic Flair Canvas Tint */
+  }
+
+  body {
+    font-family: var(--font-inter);
+    color: var(--color-black-ink);
+    background-color: #FFFFFF;
+  }
+}
+
+/* Custom scrollbar in high-contrast neo-brutalist style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF0F6;
+  border-left: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF007F;
+}
+
+
